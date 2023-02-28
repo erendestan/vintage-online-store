@@ -1,0 +1,129 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap');
+
+
+h1 {
+    font-family: 'Antonio', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #FEFAE0;
+}
+#textsmain1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Antonio', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #FEFAE0;
+}
+
+.newstext {
+    padding-top: 55px;
+    margin-top: 100px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.green-circle {
+    background-color: #283618;
+    position: absolute;
+    height: 30%;
+    width: 35%;
+    border-radius: 50%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    bottom: 50%;
+    right: 0;
+}
+.buttonscroll {
+    font-family: 'Antonio', sans-serif;
+    border: 2px solid black;
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #FEFAE0;
+    text-align: center;
+    padding-top: 8px;
+    color: black;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.buttonscroll:hover {
+    color: #FEFAE0;
+    background-color: black;
+    transition: background-color 1s ease-out
+}
+
+section {
+    margin-top: -50px;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.section1 {
+    background-color: #DDA15E;
+}
+
+#section2 {
+    background-color: #BC6C25;
+}
+
+.section1 .lady img {
+    position: absolute;
+    /*left: -5%;
+    bottom: 0;
+    width: 450px;*/
+    transform: rotate(10deg);
+    bottom: 50%;
+    left: 0;
+    width: 450px;
+}
+
+.listenvinyl-square {
+    width: 100px;
+    height: 400px;
+    margin: auto;
+    margin-top: 40%;
+    width: 70%;
+    background-color: #FEFAE0;
+    padding: 10px;
+}
+
+.vintageshopping-square {
+    width: 50px;
+    height: 400px;
+    margin: auto;
+    margin-top: 40%;
+    width: 70%;
+    background-color: #FEFAE0;
+    padding: 10px;
+}
+.inrainbows-vinyl, .vintageshopping-img {
+    padding-top: 20px;
+    width: 380px;
+    margin: auto;
+    display: block;
+}
+.inrainbows-vinyl {
+    width: 85%;
+}
+
+.vintageshopping-img{
+    width: 75%;
+}
+
+.listenvinyl-p, .vintageshopping-p {
+    font-family: 'Antonio', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: black;
+}

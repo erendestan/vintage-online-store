@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap');
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/*body {
+  margin-bottom: 60px;
+}*/
+
+footer {
+    margin-top: -50px;
+    font-family: 'Antonio', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    min-height: 50px;
+    background-color: #BC6C25;
+}

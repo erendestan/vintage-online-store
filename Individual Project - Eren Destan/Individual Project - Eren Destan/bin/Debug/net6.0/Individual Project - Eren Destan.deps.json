@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Individual Project - Eren Destan/1.0.0": {
+        "runtime": {
+          "Individual Project - Eren Destan.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Individual Project - Eren Destan/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

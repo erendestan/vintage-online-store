@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Individual Project - Eren Destan.props" />
+</Project>

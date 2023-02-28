@@ -1,0 +1,31 @@
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\bin\Debug\net7.0\appsettings.json
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\bin\Debug\net7.0\Individual Project - Eren Destan.staticwebassets.runtime.json
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\bin\Debug\net7.0\Individual Project - Eren Destan.exe
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\bin\Debug\net7.0\Individual Project - Eren Destan.deps.json
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\bin\Debug\net7.0\Individual Project - Eren Destan.runtimeconfig.json
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\bin\Debug\net7.0\Individual Project - Eren Destan.dll
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\bin\Debug\net7.0\Individual Project - Eren Destan.pdb
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\Individual Project - Eren Destan.csproj.AssemblyReference.cache
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\Individual Project - Eren Destan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\Individual Project - Eren Destan.AssemblyInfoInputs.cache
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\Individual Project - Eren Destan.AssemblyInfo.cs
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\Individual Project - Eren Destan.csproj.CoreCompileInputs.cache
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\Individual Project - Eren Destan.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\Individual Project - Eren Destan.RazorAssemblyInfo.cache
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\Individual Project - Eren Destan.RazorAssemblyInfo.cs
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\staticwebassets\msbuild.Individual Project - Eren Destan.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\staticwebassets\msbuild.build.Individual Project - Eren Destan.props
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Individual Project - Eren Destan.props
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Individual Project - Eren Destan.props
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\scopedcss\bundle\Individual Project - Eren Destan.styles.css
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\scopedcss\projectbundle\Individual Project - Eren Destan.bundle.scp.css
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\Individual Project - Eren Destan.dll
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\refint\Individual Project - Eren Destan.dll
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\Individual Project - Eren Destan.pdb
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\Individual Project - Eren Destan.genruntimeconfig.cache
+C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\obj\Debug\net7.0\ref\Individual Project - Eren Destan.dll
