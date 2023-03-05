@@ -56,6 +56,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Eren Destan" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="~/assets/favicon.ico">
+
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
          <link rel="stylesheet" href="~/Individual_Project___Eren_Destan.styles.css" asp-append-version="true" />
@@ -69,21 +72,22 @@
                 integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light p-3">
-            <a class="navbar-brand" href="#"><img src="" alt="Eren Destan Logo" height="50"></a>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light p-1">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    @*<a class="nav-item nav-link active" href="index.html">Home</a>
-                    <a class="nav-item nav-link" href="student1page1.html">Salih page 1</a>
-                    <a class="nav-item nav-link" href="student1page2.html">Salih page 2</a>
-                    <a class="nav-item nav-link" href="student2page1.html">Eren page 1</a>
-                    <a class="nav-item nav-link" href="student2page2.html">Eren page 2</a>
-                    <a class="nav-item nav-link" href="student3page1.html">Kyano page 1</a>
-                    <a class="nav-item nav-link" href="student3page2.html">Kyano page 2</a>*@
+                    <a class="nav-item nav-link d-none px-4 d-lg-block border-start border-dark border-end border-dark" asp-page="Pages/Index.cshtml"><img src="assets/favicon.jpg" width="36" height="36" ></a>
+                    <a class="nav-item nav-link active px-5 border-start border-dark border-end border-dark" asp-page="Pages/Index.cshtml">Home</a>
+                    <a class="nav-item nav-link d-none d-lg-block px-5 border-end border-dark"><img src="assets/3vinyl.png" width="110" height="36" ></a>
+                    <a class="nav-item nav-link px-5 border-end border-dark" href="#section2">Our Services</a>
+                    <a class="nav-item nav-link px-5 border-end border-dark" asp-page="">Listen Vinyl</a>
+                    <a class="nav-item nav-link px-5 border-end border-dark" asp-page="">Vintage Shopping</a>
+                    <a class="nav-item nav-link d-none d-lg-block px-5 border-end border-dark"><img src="assets/3vinyl.png" width="110" height="36" ></a>
+                    <a class="nav-item nav-link px-4 border-end border-dark" asp-page="">Login </a>
+                    <a class="nav-item nav-link px-4 border-end border-dark" asp-page="">Create an Account</a>
                 </div>
             </div>
         </nav>
@@ -92,7 +96,10 @@
         @RenderBody()
         </main>
 
-        <footer><p>&copy; Eren Destan</p></footer>
+        <footer>
+            <p class="d-none d-lg-block">&copy; Eren Destan</p>
+            <p class="d-lg-none d-md-block pt-5">&copy; Eren Destan</p>
+        </footer>
         <script src="js/student2page1.js"></script>
     </body>
 </html>

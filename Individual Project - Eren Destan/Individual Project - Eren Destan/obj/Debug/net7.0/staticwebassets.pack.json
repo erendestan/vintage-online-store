@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Individual Project - Eren Destan.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\assets\\3vinyl.png",
+      "PackagePath": "staticwebassets\\assets\\3vinyl.png"
+    },
+    {
       "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\assets\\In Rainbows Vinyl.png",
       "PackagePath": "staticwebassets\\assets\\In Rainbows Vinyl.png"
     },
@@ -17,8 +21,24 @@
       "PackagePath": "staticwebassets\\assets\\Vintage Shopping.png"
     },
     {
+      "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\assets\\favicon.jpg",
+      "PackagePath": "staticwebassets\\assets\\favicon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\assets\\ladyformedium.png",
+      "PackagePath": "staticwebassets\\assets\\ladyformedium.png"
+    },
+    {
       "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\assets\\ladywbg.png",
       "PackagePath": "staticwebassets\\assets\\ladywbg.png"
+    },
+    {
+      "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\assets\\vinyl.png",
+      "PackagePath": "staticwebassets\\assets\\vinyl.png"
     },
     {
       "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\css\\site.css",

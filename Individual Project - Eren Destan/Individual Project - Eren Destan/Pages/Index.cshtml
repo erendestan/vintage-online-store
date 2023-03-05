@@ -10,15 +10,34 @@
         <div class="container">
             <img class="newstext" src="assets/Landing Page Letters.png" alt="Eren Destan Header">
             <div class="container">
-                <div id="textsmain1" class="col-lg-12 col-md-4 col-sm-12 col-12">
-                    <h1>Eren Destan - Individual Project</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+                <div id="textsmain1" class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    @*<h1>Eren Destan - Individual Project</h1>*@
+                    <div class="row">
+                        @*Large Screen*@
+                        <div class="col-lg-4 d-none d-lg-block"></div>
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <p class="landingtext">Welcome to our vintage clothing shop and vinyl haven! Here, we celebrate the beauty and timelessness of vintage fashion and music. Our collection of vintage clothing will transport you back in time to a bygone era, where quality craftsmanship and unique designs were the norm.
+                                So come on in, take a step back in time, and experience the joy of nostalgia.</p>
+                        </div>
+                        <div class="col-lg-4 d-none d-lg-block"></div>
+                        @*Medium and Smaller Screen*@
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 d-lg-none d-md-block pt-4">
+                            @*Can't select the img*@
+                                <div class="mdlady d-lg-none d-md-block"><img src="assets/ladyformedium.png" alt="Lady"></div>
+                            </div>
+                            <div class="col-md-6 d-lg-none d-md-block">
+                                <p>Welcome to our vintage clothing shop and vinyl haven! Here, we celebrate the beauty and timelessness of vintage fashion and music. Our collection of vintage clothing will transport you back in time to a bygone era, where quality craftsmanship and unique designs were the norm.
+                                So come on in, take a step back in time, and experience the joy of nostalgia.</p>
+                            </div>
+                    </div>
                     <a class="buttonscroll" href="#section2">Learn More!</a>
-                    <div class="lady"><img src="assets/ladywbg.png" alt="Lady"></div>
+                    <div class="lady d-none d-lg-block"><img src="assets/ladywbg.png" alt="Lady"></div>
                 </div>
                 <div class="parent">
-                    <div class="green-circle"></div>
+                    @*<div class="vinylimg"><img src="/assets/vinyl.png" width="600px" height="400px"></div>*@
+                    <div class="green-circle lady d-none d-lg-block"></div>
                 </div>
             </div>
         </div>
@@ -29,23 +48,24 @@
                 <div class="col-12">
                     <p class="section2-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-            </div>*@
+              </div>*@
+            @*<h1>Our Services</h1>*@
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="listenvinyl-square">
                         <img src="assets/In Rainbows Vinyl.png" class="inrainbows-vinyl">
                         <p class="listenvinyl-p">Listen Vinyl</p>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="vintageshopping-square">
                         <img src="assets/Vintage Shopping.png" class="vintageshopping-img">
                         <p class="vintageshopping-p">Vintage Shopping</p>
                     </div>
                 </div>
             </div>
-            
-        </div>
+         </div>
+        </>
 
     </section>
 

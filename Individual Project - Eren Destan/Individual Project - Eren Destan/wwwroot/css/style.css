@@ -1,15 +1,22 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap');
 
 
-h1 {
+h1 {  /*Does not put margin top*/
     font-family: 'Antonio', sans-serif;
     font-weight: bold;
+    position: relative;
+    top: 500px;
     text-align: center;
     color: #FEFAE0;
+    text-decoration: underline;
 }
 #textsmain1 {
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
+}
+
+.landingtext{
+    margin-top: -30px;
 }
 
 p {
@@ -87,7 +94,25 @@ section {
     left: 0;
     width: 450px;
 }
-
+.mdlady {
+    position: absolute;
+    transform: rotate(10deg);
+    width: 250px;
+    left: 0;
+   
+}
+/*img [src="assets/ladyformedium.png"] {
+    position: absolute;
+    transform: rotate(10deg);
+    width: 250px;
+    left: 0;
+}*/
+/*.vinylimg img{
+    position: absolute;
+    transform: rotate(10deg);
+    bottom: 50%;
+    right: 0;
+}*/
 .listenvinyl-square {
     width: 100px;
     height: 400px;
