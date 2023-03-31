@@ -1,0 +1,3 @@
+git config core.longpaths true
+
+I have used this thing on GitBash because of my path name was too long and can not even push because of that.
