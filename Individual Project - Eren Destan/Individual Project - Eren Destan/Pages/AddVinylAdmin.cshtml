@@ -1,0 +1,190 @@
+﻿@page
+@model Individual_Project___Eren_Destan.Pages.AddVinylAdminModel
+@{
+    ViewBag.Title = "Add New Vinyl!";
+    Layout = "_Layout";
+}
+<title>Create an Account!</title>
+<link rel="stylesheet" href="css/createAccountStyling.css" />
+
+
+
+<div class="container">
+    <h1>Create Your Account</h1>
+    <div class="form_container">
+        <form method="post">
+            @*<div class="row mt-2">
+                <div class="name col-1">
+                    <label asp-for="Vinyl.Id">ID*</label>
+                    <span asp-validation-for="Vinyl.Id"></span>
+                </div>
+                <div class="col-11">
+                    <input asp-for="Vinyl.Id" placeholder="Vinyl ID...">
+                </div>
+            </div>*@
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.Name">Album Name*</label>
+                    <span asp-validation-for="Vinyl.Name"></span>
+                </div>
+                <div class="col-11">
+                    <input asp-for="Vinyl.Name" placeholder="Vinyl Name...">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.VinylType">Vinyl Type(33RPM, 45RPM)*</label>
+                    <span asp-validation-for="Vinyl.VinylType"></span>
+                </div>
+                <div class="col-11">
+                    <input asp-for="Vinyl.VinylType" placeholder="Vinyl Type...">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.Artist">Artist/Band*</label>
+                    <span asp-validation-for="Vinyl.Artist"></span>
+                </div>
+                <div class="col-11">
+                    <input asp-for="Vinyl.Artist" placeholder="Artist/Band...">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.Genre">Genre*</label>
+                    <span asp-validation-for="Vinyl.Genre"></span><br />
+                </div>
+                <div class="col-11">
+                    <select asp-for="Vinyl.Genre">
+                        @foreach (var genre in Enum.GetValues(typeof(Models.Genre)))
+                        {
+                            <option value="@genre">@genre</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.ReleaseDate">Release Date*</label>
+                    <span asp-validation-for="Vinyl.ReleaseDate"></span>
+                </div>
+                <div class="col-11">
+                    <input class="form-control" type="date" asp-for="Vinyl.ReleaseDate">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.Price">Price(€)*</label>
+                    <span asp-validation-for="Vinyl.Price"></span>
+                </div>
+                <div class="col-11">
+                    <input class="form-control" type="number" asp-for="Vinyl.Price">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.Stock">Stock*</label>
+                    <span asp-validation-for="Vinyl.Stock"></span>
+                </div>
+                <div class="col-11">
+                    <input class="form-control" type="number" asp-for="Vinyl.Stock">
+                </div>
+            </div>
+            <div class="button_container">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Cancel">
+            </div>
+        </form>
+        <div><p>@ViewData["Message"]</p></div>
+    </div>
+</div>
+
+@*<div class="container">
+    <h1>Create Your Account</h1>
+    <div class="form_container">
+        <form method="post">
+            <div class="row mt-2">
+                <div class="name col-1">
+                    <label asp-for="Vinyl.Id">ID*</label>
+                    <span asp-validation-for="Vinyl.Id"></span>
+                </div>
+                <div class="col-11">
+                    <input asp-for="Vinyl.Id" placeholder="Vinyl ID...">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.VinylType">Vinyl Type(33RPM, 45RPM)*</label>
+                    <span asp-validation-for="Vinyl.VinylType"></span>
+                </div>
+                <div class="col-11">
+                    <input asp-for="Vinyl.VinylType" placeholder="Vinyl Type...">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.Artist">Artist/Band*</label>
+                    <span asp-validation-for="Vinyl.Artist"></span>
+                </div>
+                <div class="col-11">
+                    <input asp-for="Vinyl.Artist" placeholder="Artist/Band...">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.Genre">Genre*</label>
+                    <span asp-validation-for="Vinyl.Genre"></span><br />
+                </div>
+                <div class="col-11">
+                    <select asp-for="Vinyl.Genre">
+                        @foreach (var genre in Enum.GetValues(typeof(Models.Genre)))
+                        {
+                                    <option value="@genre">@genre</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.ReleaseDate">Release Date*</label>
+                    <span asp-validation-for="Vinyl.ReleaseDate"></span>
+                </div>
+                <div class="col-11">
+                    <input class="form-control" type="date" asp-for="Vinyl.ReleaseDate">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.Name">Album Name*</label>
+                    <span asp-validation-for="Vinyl.Name"></span>
+                </div>
+                <div class="col-11">
+                    <input asp-for="Vinyl.Name" placeholder="Vinyl Name...">
+                </div>
+            </div>           
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.Price">Price(€)*</label>
+                    <span asp-validation-for="Vinyl.Price"></span>
+                </div>
+                <div class="col-11">
+                    <input class="form-control" type="number" asp-for="Vinyl.Price">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-1">
+                    <label asp-for="Vinyl.Stock">Stock*</label>
+                    <span asp-validation-for="Vinyl.Stock"></span>
+                </div>
+                <div class="col-11">
+                    <input class="form-control" type="number" asp-for="Vinyl.Stock">
+                </div>
+            </div>
+            <div class="button_container">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Cancel">
+            </div>
+        </form>
+        <div><p>@ViewData["Message"]</p></div>
+    </div>
+</div>*@

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\Individual Project - Eren Destan.csproj": {}
+    "C:\\Users\\erend\\OneDrive\\Desktop\\Fontys Software -Semester 2\\All Individual Project Tries\\User Form + Vinyl Form\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\Individual Project - Eren Destan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\Individual Project - Eren Destan.csproj": {
+    "C:\\Users\\erend\\OneDrive\\Desktop\\Fontys Software -Semester 2\\All Individual Project Tries\\User Form + Vinyl Form\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\Individual Project - Eren Destan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\Individual Project - Eren Destan.csproj",
+        "projectUniqueName": "C:\\Users\\erend\\OneDrive\\Desktop\\Fontys Software -Semester 2\\All Individual Project Tries\\User Form + Vinyl Form\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\Individual Project - Eren Destan.csproj",
         "projectName": "Individual Project - Eren Destan",
-        "projectPath": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\Individual Project - Eren Destan.csproj",
+        "projectPath": "C:\\Users\\erend\\OneDrive\\Desktop\\Fontys Software -Semester 2\\All Individual Project Tries\\User Form + Vinyl Form\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\Individual Project - Eren Destan.csproj",
         "packagesPath": "C:\\Users\\erend\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\obj\\",
+        "outputPath": "C:\\Users\\erend\\OneDrive\\Desktop\\Fontys Software -Semester 2\\All Individual Project Tries\\User Form + Vinyl Form\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -27,7 +27,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\erend\\OneDrive\\Desktop\\Fontys Software\\Individual Project\\Eren Destan - Library-Individual Project\\Eren Destan - Library-Individual Project": {}
+          "C:\\Users\\erend\\OneDrive\\Desktop\\Fontys Software\\Individual Project\\Eren Destan - Library-Individual Project\\Eren Destan - Library-Individual Project": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -44,6 +45,30 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

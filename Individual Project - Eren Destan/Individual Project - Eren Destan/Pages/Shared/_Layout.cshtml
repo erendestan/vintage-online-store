@@ -1,55 +1,4 @@
-﻿@*<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Individual_Project___Eren_Destan</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Individual_Project___Eren_Destan.styles.css" asp-append-version="true" />
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Individual_Project___Eren_Destan</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - Individual_Project___Eren_Destan - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
-</html>*@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -62,7 +11,7 @@
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
          <link rel="stylesheet" href="~/Individual_Project___Eren_Destan.styles.css" asp-append-version="true" />
-         <link rel="stylesheet" href="~/css/style.css" />
+         @*<link rel="stylesheet" href="~/css/style.css" />*@
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
                 integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -79,15 +28,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-item nav-link d-none px-4 d-lg-block border-start border-dark border-end border-dark" asp-page="Pages/Index.cshtml"><img src="assets/favicon.jpg" width="36" height="36" ></a>
-                    <a class="nav-item nav-link active px-5 border-start border-dark border-end border-dark" asp-page="Pages/Index.cshtml">Home</a>
-                    <a class="nav-item nav-link d-none d-lg-block px-5 border-end border-dark"><img src="assets/3vinyl.png" width="110" height="36" ></a>
+                    <a class="nav-item nav-link d-none px-4 d-lg-block border-start border-dark border-end border-dark" asp-page="/Index"><img src="assets/favicon.jpg" width="36" height="36" ></a>
+                    <a class="nav-item nav-link active px-5 border-start border-dark border-end border-dark" asp-page="/Index">Home</a>
+                    @*<a class="nav-item nav-link d-none d-lg-block px-5 border-end border-dark"><img src="assets/3vinyl.png" width="110" height="36" ></a>*@
+                    <a class="nav-item nav-link px-5 border-end border-dark" asp-page="/AddVinylAdmin">Add Vinyl - Admin</a>
                     <a class="nav-item nav-link px-5 border-end border-dark" href="#section2">Our Services</a>
-                    <a class="nav-item nav-link px-5 border-end border-dark" asp-page="">Listen Vinyl</a>
+                    <a class="nav-item nav-link px-5 border-end border-dark" asp-page="/VinylStore">Listen Vinyl</a>
                     <a class="nav-item nav-link px-5 border-end border-dark" asp-page="">Vintage Shopping</a>
-                    <a class="nav-item nav-link d-none d-lg-block px-5 border-end border-dark"><img src="assets/3vinyl.png" width="110" height="36" ></a>
-                    <a class="nav-item nav-link px-4 border-end border-dark" asp-page="">Login </a>
-                    <a class="nav-item nav-link px-4 border-end border-dark" asp-page="">Create an Account</a>
+                    <a class="nav-item nav-link px-5 border-end border-dark" asp-page="/AddUserAdmin">Add User - Admin</a>
+                    @*<a class="nav-item nav-link d-none d-lg-block px-5 border-end border-dark"><img src="assets/3vinyl.png" width="110" height="36" ></a>*@
+                    <a class="nav-item nav-link px-4 border-end border-dark" asp-page="/Login">Login </a>
+                    <a class="nav-item nav-link px-4 border-end border-dark" asp-page="/CreateAccount">Create an Account</a>
                 </div>
             </div>
         </nav>
@@ -100,6 +51,5 @@
             <p class="d-none d-lg-block">&copy; Eren Destan</p>
             <p class="d-lg-none d-md-block pt-5">&copy; Eren Destan</p>
         </footer>
-        <script src="js/student2page1.js"></script>
     </body>
 </html>

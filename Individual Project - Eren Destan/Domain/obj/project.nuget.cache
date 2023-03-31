@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "sgS1LNbEGvLtMCeUxAQOiV+yWjW5FM2COq43XwJyTmQ0yQIC8o/i9XYyBqaeTtAYdpVbzrKG3e7bWw0nlW5VVA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\erend\\OneDrive\\Desktop\\Fontys Software -Semester 2\\All Individual Project Tries\\User Form + Vinyl Form\\Individual Project - Eren Destan\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\erend\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\erend\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\erend\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

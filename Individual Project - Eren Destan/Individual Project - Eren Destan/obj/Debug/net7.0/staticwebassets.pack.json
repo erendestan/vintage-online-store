@@ -41,6 +41,14 @@
       "PackagePath": "staticwebassets\\assets\\vinyl.png"
     },
     {
+      "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\css\\VinylStoreStyling.css",
+      "PackagePath": "staticwebassets\\css\\VinylStoreStyling.css"
+    },
+    {
+      "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\css\\createAccountStyling.css",
+      "PackagePath": "staticwebassets\\css\\createAccountStyling.css"
+    },
+    {
       "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -123,6 +131,22 @@
     {
       "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
     },
     {
       "Id": "C:\\Users\\erend\\OneDrive\\Belgeler\\C#\\Individual Project - Eren Destan\\Individual Project - Eren Destan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",

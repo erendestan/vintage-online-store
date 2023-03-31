@@ -1,0 +1,56 @@
+﻿@page
+@model Individual_Project___Eren_Destan.Pages.AddUserAdminModel
+@*@model Individual_Project___Eren_Destan.Pages.CreateAccountModel*@
+@{
+    ViewBag.Title = "Add New User!";
+    Layout = "_Layout";
+}
+
+<title>Create an Account!</title>
+<link rel="stylesheet" href="css/createAccountStyling.css" />
+
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <h1>Add New User!</h1>
+        </div>
+        <div class="col-4">
+            <a asp-page="/CreateAccount" class="btn btn-primary">Add New User!</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            
+            <table class="table table-bordered table-striped mb-5">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Date Of Birth</th>
+                        <th>Address</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var member in Model.memberInfoList)
+                    {
+                        <tr>
+                            <td>@member.id</td>
+                            <td>@member.name</td>
+                            <td>@member.email</td>
+                            <td>@member.password</td>
+                            <td>@member.dateOfBirth</td>
+                            <td>@member.address</td>
+                            <td>
+                                <a class="btn btn-primary btn-sm" href="/Member/Edit?id=@member.id">Edit</a>
+                                <a class="btn btn-primary btn-sm" href="/Member/Delete?id=@member.id">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

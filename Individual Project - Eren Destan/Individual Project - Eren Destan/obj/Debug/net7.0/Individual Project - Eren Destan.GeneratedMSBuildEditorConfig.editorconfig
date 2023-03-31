@@ -9,37 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Individual_Project___Eren_Destan
 build_property.RootNamespace = Individual_Project___Eren_Destan
-build_property.ProjectDir = C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan\
+build_property.ProjectDir = C:\Users\erend\OneDrive\Desktop\Fontys Software -Semester 2\All Individual Project Tries\New One\Individual Project - Eren Destan\Individual Project - Eren Destan\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\erend\OneDrive\Belgeler\C#\Individual Project - Eren Destan\Individual Project - Eren Destan
+build_property.MSBuildProjectDirectory = C:\Users\erend\OneDrive\Desktop\Fontys Software -Semester 2\All Individual Project Tries\New One\Individual Project - Eren Destan\Individual Project - Eren Destan
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/erend/OneDrive/Belgeler/C\#/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/Error.cshtml]
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/AddUserAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVXNlckFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/AddVinylAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVmlueWxBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/CreateAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erend/OneDrive/Belgeler/C\#/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/Index.cshtml]
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erend/OneDrive/Belgeler/C\#/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/Privacy.cshtml]
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erend/OneDrive/Belgeler/C\#/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/Shared/_LayoutForStores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRGb3JTdG9yZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erend/OneDrive/Belgeler/C\#/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/_ViewImports.cshtml]
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/UserLoggedIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckxvZ2dlZEluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/VinylStore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlueWxTdG9yZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erend/OneDrive/Belgeler/C\#/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/_ViewStart.cshtml]
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erend/OneDrive/Belgeler/C\#/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/Shared/_Layout.cshtml]
+[C:/Users/erend/OneDrive/Desktop/Fontys Software -Semester 2/All Individual Project Tries/New One/Individual Project - Eren Destan/Individual Project - Eren Destan/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lfyzgby6t4

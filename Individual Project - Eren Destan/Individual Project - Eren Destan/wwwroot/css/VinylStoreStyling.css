@@ -1,0 +1,25 @@
+﻿.rectangle {
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.bigrectangle {
+    background-color: burlywood;
+    margin-top: 0px;
+    height: 600px;
+    width: 900px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+.navbar{
+    margin-left: 0px;
+}
+/*.rectangle:first-child{
+    margin-top: 10px;
+}*/

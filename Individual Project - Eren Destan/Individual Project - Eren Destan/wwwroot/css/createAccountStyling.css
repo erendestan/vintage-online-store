@@ -1,0 +1,114 @@
+﻿/* Colour Scheme: https://coolors.co/124e78-f0f0c9-f2bb05-d74e09-6e0e0a */
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap');
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: calibri;
+    color: #303030;
+}
+
+h1 {
+    font-family: 'Antonio', sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+a {
+    text-decoration: none;
+    font-style: italic;
+    color: #D74E09
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+h1 {
+    border-left: 8px solid #124E78;
+    padding-left: 7px;
+    color: #124E78;
+}
+
+/*#site_layout {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50px auto 25px;
+}*/
+
+.container{
+    margin-top: 150px;
+}
+
+#footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F2BB05;
+}
+/* Form styles; taken from https://www.w3schools.com/css/css_form.asp */
+.details_container,
+.form_container {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+    .form_container input[type=text],
+    .form_container input[type=email],
+    .form_container input[type=password],
+    .form_container textarea,
+    .form_container select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .form_container textarea {
+        height: 20vh;
+    }
+
+    .form_container input[type=submit],
+    .form_container input[type=reset] {
+        width: 100%;
+        background-color: #124E78;
+        color: #F0F0C9;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+.button_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .button_container input[type=submit],
+    .button_container input[type=reset] {
+        flex-grow: 1;
+        margin-right: 10px;
+    }
+
+    .button_container input:last-child {
+        margin-right: 0px;
+    }
+
+.form_container input[type=submit]:hover,
+.form_container input[type=reset]:hover {
+    background-color: #D74E09;
+}
+
+.field-validation-error {
+    color: red;
+}
